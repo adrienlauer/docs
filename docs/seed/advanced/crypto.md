@@ -17,7 +17,7 @@ Seed provides helpers for Java cryptography:
  * KeyStore configuration
  * SSL configuration
 
-{{< dependency "org.seedstack.seed" "seed-crypto" >}}
+{{< dependency g="org.seedstack.seed" a="seed-crypto" >}}
 
 # Encryption
 

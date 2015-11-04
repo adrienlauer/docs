@@ -18,7 +18,7 @@ resources such as persistence or messaging. For more detail about transactions, 
 
 To enable transactions in your project, add the `seed-transaction` module to your classpath. 
 
-{{< dependency "org.seedstack.seed" "seed-transaction" >}}
+{{< dependency g="org.seedstack.seed" a="seed-transaction" >}}
 
 Note that this dependency is rarely explicitly required as it is transitively provided by any transaction-capable add-on
 like JPA persistence, JMS, ...

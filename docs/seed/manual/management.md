@@ -15,7 +15,7 @@ and even to take action if necessary. It does so by capturing metrics on key app
 health status. Custom metrics and health-checks can be defined. If you need to take action, you can execute predefined 
 or custom management commands through SSH. 
   
-{{< dependency "org.seedstack.seed" "seed-metrics" >}}
+{{< dependency g="org.seedstack.seed" a="seed-metrics" >}}
 
 # Metrics
 
@@ -134,7 +134,7 @@ take and produce discrete objects that are displayed as strings.
 * Direct mode consists of a single command executed through an ssh remote invocation. In this mode, commands have
 access to low-level input, output and error streams and thus can be combined with other commands on the client system.
 
-{{< dependency "org.seedstack.seed" "seed-shell" >}}
+{{< dependency g="org.seedstack.seed" a="seed-shell" >}}
 
 ## Configuration
 
@@ -161,7 +161,7 @@ recommended to configure a real SSH key.**
 All commands registered in the {{< java "org.seedstack.seed.core.api.CommandRegistry" >}} can be invoked from both interactive 
 and direct modes. You can specify command name, arguments and options using a GNU-like syntax:
 
-    [scope:]cmdname -s -sval --long-option --long-option-with-arg=argval arg0 arg1 arg2…
+    [scope:]cmdname -s -sval --long-option --long-option-with-arg=argval arg0 arg1 arg2ï¿½
     
 Note that:
     

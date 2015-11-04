@@ -15,7 +15,7 @@ environments, when using an external Web application server. Seed provides tight
 specification along with support for HTTP security, WebSockets, Cross-Origin Resource Sharing (CORS), or advanced 
 static-resources serving. To enable Web support in your project, add the `seed-web-core` module to your classpath.
 
-{{< dependency "org.seedstack.seed" "seed-web-core" >}}
+{{< dependency g="org.seedstack.seed" a="seed-web-core" >}}
 
 {{% callout info %}}
 When deploying a Seed application in a standalone Web container, the required minimum Servlet compliance level is 2.5 
@@ -27,7 +27,7 @@ though some features require a Servlet 3.0 compliance level. All the features ar
 When running in a Servlet environment (Web), you might want to secure access to the application URLs by specifying 
 filtering patterns. To enable this feature, add the `seed-web-security` module to your project.
 
-{{< dependency "org.seedstack.seed" "seed-web-security" >}}
+{{< dependency g="org.seedstack.seed" a="seed-web-security" >}}
 
 This module depends upon the `seed-security-core` module. A servlet filter is automatically added on `/*` and, as such, 
 has the ability to intercept all application URLs. You can then define its interception behavior by specifying a list or 
@@ -355,7 +355,7 @@ for a complete list of configuration parameters.
 Seed also integrates the Java API for WebSocket (JSR 356), allowing server and client endpoints to be injected. WebSocket
 support requires Java 7 to work.
 
-{{< dependency "org.seedstack.seed" "seed-web-websocket" >}}
+{{< dependency g="org.seedstack.seed" a="seed-web-websocket" >}}
 
 ## Server endpoints
 

@@ -15,7 +15,7 @@ for integration testing. This runner handles kernel startup and shutdown as well
 detect and activate Seed test plugins which augment the test behavior. For instance the Seed security test plugin can
 login a predefined user based on an annotation.
 
-To use Seed testing tools, add the `seed-testing` module in your test classpath. {{< dependency "org.seedstack.seed" "seed-testing" "test" >}}
+To use Seed testing tools, add the `seed-testing` module in your test classpath. {{< dependency g="org.seedstack.seed" a="seed-testing" s="test" >}}
 
 # Supported test typologies
 

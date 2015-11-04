@@ -14,7 +14,7 @@ Seed provides support for [Representational State Transfer][1] (REST) architectu
 specification. Implementation rely on [Jersey](https://jersey.java.net/). To enable REST support in your project, add 
 the `seed-rest-jersey1` module.
 
-{{< dependency "org.seedstack.seed" "seed-rest-jersey1" >}}
+{{< dependency g="org.seedstack.seed" a="seed-rest-jersey1" >}}
 
 
 # JAX-RS 101

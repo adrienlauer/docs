@@ -26,7 +26,7 @@ solution.**
 * Add `seed.jar` manually to your application. This JAR contains all Seed code and the required dependencies in a single,
 convenient yet big, library.  
 
-{{< dependency "org.seedstack.seed" "seed-core" >}}
+{{< dependency g="org.seedstack.seed" a="seed-core" >}}
 
 {{% callout tips %}}
 If you're using Maven, SeedStack provides comprehensive dependency management in its distribution, whether by inheriting

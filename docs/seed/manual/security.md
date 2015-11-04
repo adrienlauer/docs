@@ -18,9 +18,9 @@ It takes charge of the following tasks:
 * Authorization (defines which roles and permissions a subject can have),
 * Access-control (enforces access restrictions to entry-points and/or to any arbitrary code). 
 
-To enable security to your project, you need to add the `seed-security-core` module. {{< dependency "org.seedstack.seed" "seed-security-core" >}}
+To enable security to your project, you need to add the `seed-security-core` module. {{< dependency g="org.seedstack.seed" a="seed-security-core" >}}
     
-In a Web application, you may want to enable HTTP-based security by adding the `seed-web-security` module. {{< dependency "org.seedstack.seed" "seed-web-security" >}}    
+In a Web application, you may want to enable HTTP-based security by adding the `seed-web-security` module. {{< dependency g="org.seedstack.seed" a="seed-web-security" >}}
     
 {{% callout info %}}
 The internal security engine is [Apache Shiro](http://shiro.apache.org/). Seed provides additional benefits on top of Shiro
